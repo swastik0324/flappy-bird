@@ -178,17 +178,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 						bird.x = column.x - bird.width;
 
 					}
-					else
-					{
-						if (column.y != 0)
-						{
-							bird.y = column.y - bird.height;
-						}
-						else if (bird.y < column.height)
-						{
-							bird.y = column.height;
-						}
-					}
+					
 				}
 			}
 
